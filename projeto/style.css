@@ -1,4 +1,19 @@
 @charset "UTF-8";
+body {
+    background-image: linear-gradient(to bottom, rgb(129, 129, 129), #1f1f1f, #444444);
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+a:link{
+    color: rgb(0, 0, 0);
+}
+a:visited{
+    color:rgb(3, 3, 3);
+}
+a:hover{
+    color: #F5C518;
+}
 .cabeçalho-principal{
 
 }
@@ -16,10 +31,20 @@
 
 }
 .grade{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px; 
+
+}
+.fotos{
+    margin: 3px;
+    margin-bottom: 20px;
 
 }
 .card{
-
+    background-color: rgb(68, 67, 67);
+    padding: 20px; 
 }
 .dados-itens{
 
@@ -27,6 +52,7 @@
 .etiqueta{
 
 }
+
 .secao-info{
 
 }
@@ -34,5 +60,6 @@
 
 }
 .rodape{
+    text-align: center;
     
 }

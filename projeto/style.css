@@ -26,7 +26,6 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
 }
-
 nav {
     position: absolute;
     right: 20px;
@@ -38,54 +37,55 @@ nav {
     margin: 0 auto;
 }
 .secao-banner{
-    margin: 10px;
+    margin: 150px;
+    text-align: center;
 }
 .menu-navegacao{
     gap: 10px;
-
 }
 .link-login{
     color: #F5C518;
 }
 .secao-catalogo{
     margin: 10px;
-
-
 }
 .titulo-catalogo{
-
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 30px;
+    color: #030303;
 }
 .grade{
     max-width: 1240px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px; 
-
 }
 .fotos{
     margin: 3px;
     margin-bottom: 20px;
-
 }
 .card{
     background-color: rgb(68, 67, 67);
-    padding: 20px; 
+    padding: 5px; 
 }
 .dados-itens{
-
+    padding-left: 10px;
 }
 .etiqueta{
 
 }
-
 .secao-info{
-    margin: 10px;
-
+    background-color: rgb(68, 67, 67);
+    margin: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color:rgb(3, 3, 3);
 }
 .bloco{
-
+    color: #F5C518;
+    padding-left: 10px;
 }
 .rodape{
     text-align: center;
-    
 }

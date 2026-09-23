@@ -7,7 +7,7 @@
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Arial, sans-serif;
-    background-color: #bb915183;
+    background-color: #dfa85683;
     color: #333;
     line-height:2;
     min-height:100vh;
@@ -49,8 +49,18 @@ header{
     color:#ffff;
 }
 
+.link-inicial:hover{
+    color: #144127;
+    padding: 6px 14px;
+    border-radius: 6px;
+}
+
+.link-inicial:hover{
+    background-color: #5e5e4f;
+    color: #0f0e01;
+}
+
 .link-login{
-    background-color: #dbd8b5;
     color: #144127;
     padding: 6px 14px;
     border-radius: 6px;
@@ -69,9 +79,10 @@ header{
 }
 
 .secao-principal{
-    background-color: #ffff;
+    background-color: #daa94ec7;
     border: 1px solid #dbd8b5;
     border-radius: 8px;
+    text-align: center;
     padding: 20px;
     margin-bottom: 32px;
 }
@@ -89,8 +100,8 @@ header{
 
 .secao-principal a{
     display: inline-block;
-    background-color: #0d483a;
-    color: #1ea054;
+    background-color: #e64653;
+    color: #000000;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
@@ -128,9 +139,11 @@ header{
 }
 
 .card{
-    background-color:#fff;
-    border: 1px solid #dbd8b5;
+    background-color: #cfa76983;
+    border: 1px solid #dba776;
     border-radius: 8px;
+    color: #000000;
+    text-align: center;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -146,7 +159,7 @@ header{
     width: 100%;
     height: 180px;
     object-fit: cover;
-    border-bottom: 1px solid #dbd8b5;
+    border-bottom: 1px solid #1b1b1a;
 }
 
 .dados-item{
@@ -154,4 +167,21 @@ header{
     flex: 1;
     display: flex;
     flex-direction: column;
+}
+
+.rodape{
+    text-align: center;
+    background-color:  #dfa85683;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    gap: 20px;
+}
+.info-rodape{
+    padding: 50px;
+}
+.info-rodape a{
+    color: brown;
 }

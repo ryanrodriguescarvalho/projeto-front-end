@@ -6,6 +6,15 @@ body {
     font-family: sans-serif;
     margin: 0%;
 }
+.site{
+    text-align: center;
+}
+.site > a:link{
+    text-decoration: none;
+}
+.conteudo{
+    border-radius: 40px;
+}
 a:link{
     color: rgb(0, 0, 0);
 }*
@@ -60,6 +69,8 @@ nav {
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px; 
+    border-radius: 20px solid black;
+    border-radius: 20px;
 }
 .fotos{
     margin: 3px;
@@ -68,12 +79,10 @@ nav {
 .card{
     background-color: rgb(68, 67, 67);
     padding: 5px; 
+    border-radius: 20px solid #ccc;
 }
 .dados-itens{
     padding-left: 10px;
-}
-.etiqueta{
-
 }
 .secao-info{
     background-color: rgb(68, 67, 67);
@@ -81,6 +90,7 @@ nav {
     margin-bottom: 20px;
     padding: 5px;
     color:rgb(3, 3, 3);
+    border-radius: 20px;
 }
 .bloco{
     color: #F5C518;
